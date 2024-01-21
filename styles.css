@@ -1,0 +1,301 @@
+:root {
+  --text-decoration: azure;
+  --web-color-pallet-1: rgb(163, 106, 0);
+  --web-color-pallet-2: rgb(0, 0, 0);
+  --web-color-pallet-3: rgb(65, 65, 65);
+  --botton-color-1: navy;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*Navigatio bar*/
+.navbar {
+  background-color: var(--web-color-pallet-1);
+  width: 100%;
+  position: fixed;
+  font-weight: bold;
+  font-size: large;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar a {
+  color: var(--text-decoration);
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.navbar :hover {
+  background-color: #ada08f;
+}
+
+/*Content*/
+main {
+  margin-top: 46px;
+}
+
+/*about me*/
+
+.about-me {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--web-color-pallet-2);
+  background-image: linear-gradient(
+    65deg,
+    var(--web-color-pallet-3) 0%,
+    var(--web-color-pallet-2) 100%
+  );
+}
+
+.about-me h1 {
+  color: var(--text-decoration);
+  font-size: 50px;
+  letter-spacing: -2px;
+}
+
+.about-me i {
+  color: var(--web-color-pallet-1);
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.about-me a {
+  margin-left: 5px;
+}
+
+.hero {
+  max-width: 300px;
+  min-width: 100px;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: var(--web-color-pallet-1) solid 5px;
+}
+
+/*Projects*/
+
+.projects {
+  padding: 5rem 2rem;
+  background-color: rgb(97, 65, 28);
+}
+
+.projects h2 {
+  font-size: 35px;
+  text-align: center;
+  color: var(--text-decoration);
+  border-bottom: var(--text-decoration) solid 0.2rem;
+  margin: auto;
+  margin-bottom: 5rem;
+  max-width: 640px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(247, 194, 96);
+  box-shadow: 10px 10px var(--web-color-pallet-2);
+  border: 3px solid var(--web-color-pallet-2);
+  border-radius: 3px;
+  text-decoration: none;
+  color: var(--web-color-pallet-2);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.project-tile img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.project-tile p {
+  padding: 10px;
+}
+
+.project-tile:hover {
+  opacity: 0.8;
+}
+
+/*Project-Button*/
+
+.github-button {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.github-button button {
+  background-color: var(--botton-color-1);
+  border: none;
+  color: var(--text-decoration);
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid var(--text-decoration);
+}
+
+.github-button button:hover {
+  background-color: violet;
+  color: var(--botton-color-1);
+  border: 3px solid var(--botton-color-1);
+}
+
+.github-button button:active {
+  background-color: orange;
+  color: var(--web-color-pallet-2);
+  border: 3px solid var(--web-color-pallet-2);
+}
+
+/*Contact Section*/
+
+.contact {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    180deg,
+    var(--web-color-pallet-3) 0%,
+    var(--web-color-pallet-2) 100%
+  );
+}
+
+.contact h2 {
+  color: var(--text-decoration);
+  position: absolute;
+  margin-top: -100px;
+}
+
+.contact-links {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  gap: 5vw;
+}
+
+.contact-links a {
+  color: var(--text-decoration);
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rotation:hover {
+  animation-name: rotation;
+  animation-duration: 1.5s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+    color: var(--text-decoration);
+  }
+
+  50% {
+    transform: rotate(40deg);
+    color: var(--web-color-pallet-1);
+  }
+
+  100% {
+    transform: rotate(0deg);
+    color: var(--text-decoration);
+  }
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .navbar li {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 14px 0;
+  }
+
+  .navbar a {
+    padding: 14px 0;
+  }
+
+  .about-me h1 {
+    font-size: 35px;
+  }
+
+  .projects h2 {
+    font-size: 25px;
+  }
+
+  .project-tile {
+    font-size: 16px;
+  }
+
+  .github-button button {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .contact h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    max-width: 200px;
+  }
+
+  .about-me h1 {
+    font-size: 25px;
+  }
+
+  .projects h2 {
+    font-size: 20px;
+  }
+
+  .project-tile {
+    font-size: 14px;
+  }
+
+  .github-button button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .contact h2 {
+    font-size: 20px;
+  }
+}

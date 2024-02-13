@@ -22,7 +22,7 @@ Simply follow the link to my portfolio to view the content. Navigate through the
 I welcome any feedback or suggestions you may have. Feel to reach out to me with your thoughts.
 
 ## Contact
-If you have any questions or want to connect, you can [email](brachocarlos152@gmail.com) me or find me on [linkedin](www.linkedin.com/in/carlos-bracho-5bb07b1a3).
+If you have any questions or want to connect, you can email me at brachocarlos152@gmail.com.
 
 Thank you for visiting my portfolio!
 

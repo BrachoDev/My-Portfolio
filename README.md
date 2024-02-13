@@ -13,16 +13,16 @@ Feel free to explore and get to know more about my work!
 ## Technologies Used
 - HTML
 - CSS
-- I will add some JavaScript Soon
+- JavaScript Soon...
 
 ## How to Use
 Simply follow the link to my portfolio to view the content. Navigate through the different sections to learn more about my skills, projects, and experience.
 
 ## Feedback
-I welcome any feedback or suggestions you may have. Feel free to open an issue or reach out to me with your thoughts.
+I welcome any feedback or suggestions you may have. Feel to reach out to me with your thoughts.
 
 ## Contact
-If you have any questions or want to connect, you can reach me at [brachocarlos152@gmail.com].
+If you have any questions or want to connect, you can [email](brachocarlos152@gmail.com) me of find me on [linkedin](www.linkedin.com/in/carlos-bracho-5bb07b1a3).
 
 Thank you for visiting my portfolio!
 

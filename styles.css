@@ -108,6 +108,7 @@ main {
 
 .summary {
   width: 50%;
+  max-width: 700px;
   margin: auto;
   line-height: 1.6em;
   text-align: center;
@@ -140,6 +141,11 @@ main {
   align-items: center;
   justify-content: space-around;
   border-radius: 5px;
+}
+
+.skills-logos img {
+  width: 30%;
+  max-width: 200px;
 }
 
 /*Projects*/

@@ -18,7 +18,7 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
-/*Navigatio bar*/
+/*Navigation bar*/
 
 .navbar {
   background-color: var(--web-color-pallet-1);
@@ -144,8 +144,8 @@ main {
 }
 
 .skills-logos img {
-  width: 30%;
-  max-width: 200px;
+  width: 20%;
+  max-width: 150px;
 }
 
 /*Projects*/

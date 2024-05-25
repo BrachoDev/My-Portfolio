@@ -1,2 +1,3 @@
 NEXT THINGS TO DO:
 - Add MAT-243 projects one to website
+- fix navigation bar for smaller screens. put the information in one line instead of multiple

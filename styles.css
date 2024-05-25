@@ -135,17 +135,21 @@ main {
   padding-bottom: 20px;
 }
 
-.skills-logos {
-  background-color: var(--text-decoration);
-  display: flex;
+.skills-logos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  justify-items: center;
   align-items: center;
-  justify-content: space-around;
-  border-radius: 5px;
+  padding: 10px;
+  background-color: var(--text-decoration);
+  border-radius: 20px;
+  border: solid;
 }
 
-.skills-logos img {
-  width: 20%;
-  max-width: 150px;
+.skills-logo-grid-item {
+  max-width: 100px;
+  height: auto;
 }
 
 /*Projects*/

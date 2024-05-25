@@ -1,4 +1,2 @@
 NEXT THINGS TO DO:
-- Add MySQL project to website.
 - Add MAT-243 projects one to website
-- In the projects section change the picture so when I hover over them it pops up a small description of the project.

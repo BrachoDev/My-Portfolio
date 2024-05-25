@@ -144,7 +144,7 @@ main {
   padding: 10px;
   background-color: var(--text-decoration);
   border-radius: 20px;
-  border: solid;
+  border: solid #8f8f8f;
 }
 
 .skills-logo-grid-item {

@@ -1,3 +1,4 @@
 NEXT THINGS TO DO:
-- Add MAT-243 projects one to website
+- Add MAT-243 projects one and two to website
 - fix navigation bar for smaller screens. put the information in one line instead of multiple
+- add calculator project

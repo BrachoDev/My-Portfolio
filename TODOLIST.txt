@@ -2,5 +2,4 @@ NEXT THINGS TO DO:
 - Add MAT-243 projects one and two to website
 - Add IT-140 projects
 - fix navigation bar for smaller screens. put the information in one line instead of multiple
-- add calculator project
 - https://www.youtube.com/watch?v=z8RuUree_64 <- Idea for updated website.

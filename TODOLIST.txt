@@ -1,3 +1,2 @@
 NEXT THINGS TO DO:
-- fix navigation bar for smaller screens. put the information in one line instead of multiple
 - https://www.youtube.com/watch?v=z8RuUree_64 <- Idea for updated website.

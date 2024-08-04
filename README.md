@@ -13,7 +13,7 @@ Feel free to explore and get to know more about my work!
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript Soon...
+- JavaScript
 
 ## How to Use
 Simply follow the link to my portfolio to view the content. Navigate through the different sections to learn more about my skills, projects, and experience.

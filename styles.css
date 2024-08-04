@@ -336,6 +336,8 @@ main {
     display: none;
     flex-direction: column;
     width: 100%;
+    border-bottom: solid;
+    background-color: rgb(247, 194, 96);
   }
 
   #nav-links li {
@@ -345,6 +347,11 @@ main {
 
   #nav-links.show {
     display: flex;
+  }
+
+  #nav-links a {
+    color: black;
+    border-top: solid;
   }
 
   .summary {

@@ -1,2 +1,3 @@
 NEXT THINGS TO DO:
+- Add a downloadable resume file (once I fix resume)
 - https://www.youtube.com/watch?v=z8RuUree_64 <- Idea for updated website.

@@ -1,5 +1,6 @@
 NEXT THINGS TO DO:
 - change orange color to forrest green. ask recommendations
+- Add CS 320 Project to list of projects
 - Add a downloadable resume file (once I fix resume)
 - Get a domain for this website (Use this link for help: https://www.youtube.com/watch?v=p1QU3kLFPdg&t=1357s)
 - https://www.youtube.com/watch?v=z8RuUree_64 <- Idea for updated website.
